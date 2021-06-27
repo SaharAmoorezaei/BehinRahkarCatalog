@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6FB2522A-31B6-4279-9ADA-ED71AE2EE23F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C7F236F2-300B-44E1-A4CA-51F4DEEA6CD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{92A16E8E-7866-443B-8D5B-525AD1B02AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A28E207B-9225-49CA-845E-140C54552F8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9855B1A8-F049-416B-8C43-059A5A130AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F9E35ADC-AFE0-4669-95E1-2AFF3D33A5A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehinRahkar.Catalog.Api", "BehinRahkar.Catalog.Api\BehinRahkar.Catalog.Api.csproj", "{9FC51EDC-A134-4101-B7F9-50EBB2930F03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehinRahkar.Catalog.Infra", "BehinRahkar.Catalog.Infra\BehinRahkar.Catalog.Infra.csproj", "{7330B816-07F1-4C77-8B68-D3DD877BB266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehinRahkar.Catalog.Domain", "BehinRahkar.Catalog.Domain\BehinRahkar.Catalog.Domain.csproj", "{1E4B5D00-2583-4175-AB56-1688E081E96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehinRahkar.Catalog.Application", "BahinRahkar.Catalog.Application\BehinRahkar.Catalog.Application.csproj", "{2C4FA2AB-DDAA-4BB5-B302-7744557E8ED2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehinRahkar.Catalog.Application.IntegrationTests", "tests\BehinRahkar.Catalog.Api.Tests\BehinRahkar.Catalog.Application.IntegrationTests.csproj", "{39444FB7-AB49-4C66-88D5-8544BE51CB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehinRahkar.Catalog.Domain.Tests", "tests\BehinRahkar.Catalog.Domain.Tests\BehinRahkar.Catalog.Domain.Tests.csproj", "{86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FC51EDC-A134-4101-B7F9-50EBB2930F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC51EDC-A134-4101-B7F9-50EBB2930F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC51EDC-A134-4101-B7F9-50EBB2930F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC51EDC-A134-4101-B7F9-50EBB2930F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7330B816-07F1-4C77-8B68-D3DD877BB266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7330B816-07F1-4C77-8B68-D3DD877BB266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7330B816-07F1-4C77-8B68-D3DD877BB266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7330B816-07F1-4C77-8B68-D3DD877BB266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4B5D00-2583-4175-AB56-1688E081E96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4B5D00-2583-4175-AB56-1688E081E96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4B5D00-2583-4175-AB56-1688E081E96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4B5D00-2583-4175-AB56-1688E081E96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4FA2AB-DDAA-4BB5-B302-7744557E8ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4FA2AB-DDAA-4BB5-B302-7744557E8ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4FA2AB-DDAA-4BB5-B302-7744557E8ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4FA2AB-DDAA-4BB5-B302-7744557E8ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39444FB7-AB49-4C66-88D5-8544BE51CB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39444FB7-AB49-4C66-88D5-8544BE51CB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39444FB7-AB49-4C66-88D5-8544BE51CB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39444FB7-AB49-4C66-88D5-8544BE51CB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FB2522A-31B6-4279-9ADA-ED71AE2EE23F} = {9855B1A8-F049-416B-8C43-059A5A130AA1}
+		{C7F236F2-300B-44E1-A4CA-51F4DEEA6CD2} = {9855B1A8-F049-416B-8C43-059A5A130AA1}
+		{92A16E8E-7866-443B-8D5B-525AD1B02AC8} = {9855B1A8-F049-416B-8C43-059A5A130AA1}
+		{A28E207B-9225-49CA-845E-140C54552F8A} = {9855B1A8-F049-416B-8C43-059A5A130AA1}
+		{9FC51EDC-A134-4101-B7F9-50EBB2930F03} = {A28E207B-9225-49CA-845E-140C54552F8A}
+		{7330B816-07F1-4C77-8B68-D3DD877BB266} = {92A16E8E-7866-443B-8D5B-525AD1B02AC8}
+		{1E4B5D00-2583-4175-AB56-1688E081E96B} = {6FB2522A-31B6-4279-9ADA-ED71AE2EE23F}
+		{2C4FA2AB-DDAA-4BB5-B302-7744557E8ED2} = {C7F236F2-300B-44E1-A4CA-51F4DEEA6CD2}
+		{39444FB7-AB49-4C66-88D5-8544BE51CB16} = {F9E35ADC-AFE0-4669-95E1-2AFF3D33A5A6}
+		{86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA} = {F9E35ADC-AFE0-4669-95E1-2AFF3D33A5A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC99CC01-AFD0-459E-B25C-81F24BDFE843}
+	EndGlobalSection
+EndGlobal

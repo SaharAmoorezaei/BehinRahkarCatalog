@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc0bcede_002D29e8_002D4a1a_002D8666_002Da25add800950/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProductIsConfirm_IfPriceIsEqual999_ShouldBeTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA::.NETCoreApp,Version=v3.1::BehinRahkar.Catalog.Domain.Tests.ProductTests.ProductIsConfirm_IfPriceIsEqual999_ShouldBeTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::86DDCCB9-E899-4E3B-ABD9-B31BDF664CFA::.NETCoreApp,Version=v3.1::BehinRahkar.Catalog.Domain.Tests.ProductTests.ProductIsConfirm_IfPriceLessThan1000_ShouldBeTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::39444FB7-AB49-4C66-88D5-8544BE51CB16::.NETCoreApp,Version=v3.1::BehinRahkar.Catalog.Application.Tests.ProductCatalog.Commands.CreateProductTests.ProductCode_IfExisted_ShouldThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::39444FB7-AB49-4C66-88D5-8544BE51CB16::.NETCoreApp,Version=v3.1::BehinRahkar.Catalog.Application.Tests.ProductCatalog.Commands.CreateProductTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
